@@ -1,26 +1,26 @@
 {
-  "name": "fuzzy-server",
-  "version": "1.0.0",
-  "description": "mock server with fuzzy value",
+  "name": "anymocker",
+  "version": "1.0.3",
+  "description": "mock server with fuzzy value based on anyproxy",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.intra.douban.com/lingfeng/fuzzy-server.git"
+    "url": "https://github.intra.douban.com/lingfeng/anymocker.git"
   },
   "keywords": [
     "fuzzy",
     "mock"
   ],
   "bin": {
-    "fuzzyserver": "./index.js"
+    "anymocker": "index.js"
   },
   "author": "fenfenzhong",
   "license": "ISC",
   "dependencies": {
-    "anyproxy": "3.8.1",
+    "anyproxy": "3.10.4",
     "argparse": "^1.0.9",
     "js-beautify": "^1.6.4",
     "jsonpath": "^0.2.7",
